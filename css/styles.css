@@ -93,8 +93,6 @@
 }
 */
 
-
-
 :root {
 --IRIS: #4D5AE5;
 --OCEAN: #404BBF;
@@ -125,12 +123,31 @@ body {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+ 
+}
+
 /*header*/
 
 .header {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1140px;
+
+
 }
 
 .header-logo-web{
@@ -188,6 +205,7 @@ body {
     color:#404bbf;
 }
 /*1 Section*/
+
 .order-service {
     background-color:var(--NAVY-BLUE);
     height: 600px;
@@ -235,18 +253,28 @@ body {
 
 /*2 Section*/
 
+.section-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+ 
+}
 .strategy-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
+    margin-top: 0;
+    margin-bottom: 120px;
 }
 .strategy-subtitle {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--SLATE);
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 /*3 Section*/
 
