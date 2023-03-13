@@ -254,9 +254,7 @@ ul {
 /*2 Section*/
 
 .section-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1158px;
+
  
 }
 .strategy-title {
@@ -297,6 +295,7 @@ ul {
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
+    height: 310px;
 }
 
 .footer-logo-studio {
