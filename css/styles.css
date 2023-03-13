@@ -126,12 +126,11 @@ body {
 /*header*/
 
 .header {
-width: 1140px;
-height: 72px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 156px;
-padding-right: 156px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1140px;
+ 
+
 }
 
 .header-logo-web{
@@ -165,7 +164,6 @@ padding-right: 156px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
-    display: flex;
 }
 .header-link:hover {
     color:#404bbf;
@@ -181,7 +179,6 @@ padding-right: 156px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--SLATE);
-    display: flex;
 }
 
 .header-mail:hover {
@@ -193,6 +190,7 @@ padding-right: 156px;
 /*1 Section*/
 .order-service {
     background-color:var(--NAVY-BLUE);
+    height: 600px;
 }
 
 .order-title {
@@ -213,6 +211,15 @@ padding-right: 156px;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16 32;
+    width: 169px;
+    background-color:var(--IRIS);
+    height: 56px;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .portfolio-btn {
