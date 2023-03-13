@@ -120,6 +120,8 @@ body {
 }
 
 .list {
+    padding: 0px;
+    margin: 0px;
     list-style: none;
 }
 
@@ -129,8 +131,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 1140px;
- 
-
 }
 
 .header-logo-web{
@@ -191,6 +191,7 @@ body {
 .order-service {
     background-color:var(--NAVY-BLUE);
     height: 600px;
+    text-align: center;
 }
 
 .order-title {
@@ -200,6 +201,9 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding: 188px 472px 0 472px;
+    margin-top: 0;
+    margin-bottom: 48;
 }
 /*buttons*/
 
@@ -213,13 +217,10 @@ body {
     cursor: pointer;
     display: inline-block;
     border-radius: 4px;
-    padding: 16 32;
-    width: 169px;
     background-color:var(--IRIS);
-    height: 56px;
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
+    width: 169px;
+    height: 56px;
 }
 
 .portfolio-btn {
