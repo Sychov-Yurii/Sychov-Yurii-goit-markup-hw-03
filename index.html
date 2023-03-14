@@ -13,28 +13,30 @@
   </head>
   <body class="body" id="body">
     <!-- Header -->
-    <header class="header container">
-      <nav class="header-nav list">
-        <a class="header-logo-web link" href="./index.html">WEB<span class="header-logo-studio">Studio</span></a>
-        <ul class="header-list list link">
-          <li class="header-item">
-            <a class="header-link link" href="./index.html">Studio</a></li>
-          <li class="header-item">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a></li>
-          <li class="header-item">
-            <a class="header-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-          <ul class="list">
-            <li>
-              <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="header-mail link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
+    <header class="">
+      <div class="container">
+        <nav class="header-nav list">
+          <a class="header-logo-web link" href="./index.html">WEB<span class="header-logo-studio">Studio</span></a>
+          <ul class="header-list list link">
+            <li class="header-item">
+              <a class="header-link link" href="./index.html">Studio</a></li>
+            <li class="header-item">
+              <a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+            <li class="header-item">
+              <a class="header-link link" href="">Contacts</a></li>
           </ul>
-        </address>
+        </nav>
+         <address class="address">
+            <ul class="address-list list">
+              <li>
+                <a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="header-mail link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+      </div>
     </header>
     <!-- Main -->
     <main>
@@ -46,7 +48,7 @@
     <!-- Section 2 Strategy-->
       <section class="container">
         <h2 hidden class="strategy">Strategy</h2>
-        <ul class="list">
+        <ul class="strategy-list list">
           <li>
             <h3 class="strategy-title">Strategy</h3>
             <p class="strategy-subtitle">Our goal is to identify the business problem to walk away with the
@@ -74,9 +76,9 @@
         </ul>
       </section>
       <!-- Section 3 What are we doing -->
-      <section class="about container">
+      <section class="">
         <h2 class="about-info">What are we doing</h2>
-        <ul class="list">
+        <ul class="about-title list container">
           <li>
             <img src="./images/img-1.jpg" alt="img-1" width="360">
           </li>
@@ -90,36 +92,41 @@
       </section>
       <!-- Section 4 Our Team-->
       <section class="container">
-        <h2 class="hero">Our Team</h2>
-        <ul class="list">
-            <li>
+        <div class="hero-container">
+          <h2 class="hero">Our Team</h2>
+        <ul class="hero-list list">
+            <li class="strategy-border">
                 <img src="./images/Team-card-1.jpg" alt="Team-card-1" width="264" >
                 <h3 class="strategy-title">Mark Guerrero</h3>
                 <p class="strategy-subtitle">Product Designer</p>
             </li>
-            <li>
+            <li class="strategy-border">
                 <img src="./images/Team-card-2.jpg" alt="Team-card-2" width="264" >
                 <h3 class="strategy-title">Tom Ford</h3>
                 <p class="strategy-subtitle">Frontend Developer</p>
-            </li>
-            <li>
+            </li class="strategy-border">
+            <li class="strategy-border">
                 <img src="./images/Team-card-3.jpg" alt="Team-card-3" width="264" >
                 <h3 class="strategy-title">Camila Garcia</h3>
                 <p class="strategy-subtitle">Marketing</p>
             </li>
-            <li>
+            <li class="strategy-border">
                 <img src="./images/Team-card-4.jpg" alt="Team-card-4" width="264" >
                 <h3 class="strategy-title">Daniel Wilson</h3>
                 <p class="strategy-subtitle">UI Designer</p>
             </li>
         </ul>
+        </div>
       </section>
     </main>        
     <!-- Footer -->
     <footer class="footer">
-        <a class="header-logo-web link container" href="./index.html">WEB<span class="footer-logo-studio">Studio</span></a>
-              <a class="footer-logo-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-              </a>
+      <div class="container">
+        <a class="header-logo-web link" href="./index.html">WEB<span class="footer-logo-studio">Studio</span></a>
+        <div class="footer-logo-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+        </div>
+      </div>
+        
     </footer>
   </body>
 </html>
