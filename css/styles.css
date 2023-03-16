@@ -15,6 +15,7 @@
 }
 
 p,
+ul
 h1,
 h2,
 h3,
@@ -22,8 +23,8 @@ h4,
 h5,
 h6,
     {
-        margin: 0;
-
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -149,8 +150,9 @@ img {
 
 .order-service {
     background-color:var(--NAVY-BLUE);
-    height: 600px;
     text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .order-title {
@@ -160,9 +162,10 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    padding: 188px 472px 0 472px;
     margin-top: 0;
-    margin-bottom: 48;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*buttons*/
 
@@ -197,7 +200,8 @@ img {
 .strategy-list {
     display: flex;
     gap: 24px;
-    margin-top: 120px;
+    padding: 0;
+    margin: 0;
 }
 .strategy-title {
     font-weight: 500;
@@ -205,15 +209,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
-    margin-top: 120;
-    border: #2E2F42;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    
 }
 .strategy-subtitle {
     font-size: 16px;
@@ -224,13 +219,9 @@ img {
 }
 
 .strategy-border {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 0px 0px 32px;
     gap: 32px;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     margin-bottom: 120px;
@@ -258,7 +249,6 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--NAVY-BLUE);
-    margin-top: 120px;
     margin-bottom: 72px;    
 }
 .hero-container {
@@ -286,23 +276,37 @@ img {
 }
 
 .portfolio-about {
-    flex-basis: calc(100%/ 3);
-    width: 1158px;
+
     display: flex; 
     flex-wrap: wrap; 
     column-gap: 24px; 
     row-gap: 48px;
-    margin-top: 72px;
-    gap: 8px;
-    text-align: left;
+
 }
+.portfolio-title {
+    flex-basis: calc(100%/ 3);
+}
+
+
 
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
-    height: 310px;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-logo-web {
+    font-family: 'Raleway', sans-serif;;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS);
+    padding-bottom: 24px;
+ 
 }
 
 .footer-logo-studio {
@@ -310,8 +314,7 @@ img {
 }
 .footer-logo-text {
     color: var(--CORNFLOWER);
-    padding-top: 24px;
-    padding-bottom: 24px;
-    display: flex;
-    margin-right: 76px;
+}
+.footer-position {
+    width: 264px;
 }
