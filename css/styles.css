@@ -197,6 +197,10 @@ img {
 
 /*2 Section*/
 
+.section-position {
+    margin-top: 120px;
+    margin-top: 8px;
+}
 .strategy-list {
     display: flex;
     gap: 24px;
@@ -215,7 +219,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--SLATE);  
-    
 }
 
 .strategy-border {
@@ -229,19 +232,30 @@ img {
 
 /*3 Section*/
 
+.section-about-position
+{
+margin-top: 120px;
+margin-bottom: 120px;
+}
+
 .about-info {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color:var(--NAVY-BLUE);
-    margin-top: 120px;
+    margin-bottom: 72px;
 }
 .about-title {
     display: flex;
     gap: 24px;
 }
 /*4 Section*/
+
+.hero-container-title 
+{
+
+}
 .hero {
     font-size: 36px;
     line-height: 1.11;
@@ -249,14 +263,18 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--NAVY-BLUE);
-    margin-bottom: 72px;    
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 .hero-container {
     background-color:var(--CLOUD);
     margin-top: 120px;
+    text-align: center;
 }
 .hero-list {
     display: flex;
+    text-align: center;
+    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -286,8 +304,6 @@ img {
 .portfolio-title {
     flex-basis: calc(100%/ 3);
 }
-
-
 
 /*footer*/
 .footer {
