@@ -310,7 +310,14 @@ margin-bottom: 120px;
 }
 .portfolio-title {
     width: 360px;
+    border-left: 1px solid var(--CORNFLOWER);
+    border-right: 1px solid var(--CORNFLOWER);
+    border-bottom: 1px solid var(--CORNFLOWER);
     
+}
+
+.portfolio-image {
+    ;
 }
 
 /*footer*/
