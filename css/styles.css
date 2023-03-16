@@ -202,9 +202,13 @@ img {
     margin-top: 120px;
     
 }
+.strategy-position {
+
+}
+
 .strategy-list {
     display: flex;
-    
+    gap: 24px;
     padding: 0;
     margin: 0;
 }
@@ -224,7 +228,6 @@ img {
     letter-spacing: 0.02em;
     color:var(--SLATE);  
     font-weight: 400;
-    padding-right: 24px;
     
 }
 
@@ -288,43 +291,37 @@ margin-bottom: 120px;
 /*3 Portfolio */
 
 .portfolio-btn-list {
-
-    gap: 24px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    display: flex;
     margin-top: 96px;
+    margin-bottom: 72px;
+    gap: 24px;
 }
 
 .portfoio-buttons-head {
-    text-align: center;
+  
 }
 
 .portfolio-about {
-
-    display: flex; 
-    flex-wrap: wrap; 
-    column-gap: 24px; 
-    row-gap: 48px;
-
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    margin-bottom: 120px;
 }
 .portfolio-title {
-    flex-basis: calc(100%/ 3);
+    width: 360px;
+    
 }
 
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
-    padding-top: 100px;
-    padding-bottom: 100px;
 
 }
 
 .footer-position {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
+    padding: 100px 1200px 100px 156px;
+ 
 }
 
 .footer-logo-web {
@@ -336,7 +333,6 @@ margin-bottom: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS);
-    padding-bottom: 24px;
  
 }
 
@@ -345,7 +341,10 @@ margin-bottom: 120px;
 }
 .footer-logo-text {
     color: var(--CORNFLOWER);
+    width: 264px;
+    height: 72px;
+    margin-top: 16px;
 }
 .footer-position {
-    width: 264px;
+  
 }
