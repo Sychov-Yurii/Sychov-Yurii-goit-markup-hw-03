@@ -203,7 +203,7 @@ img {
     
 }
 .strategy-position {
-
+    width: calc((100% - 3 * 4px) / 4);
 }
 
 .strategy-list {
@@ -313,7 +313,6 @@ margin-bottom: 120px;
     border-left: 1px solid var(--CORNFLOWER);
     border-right: 1px solid var(--CORNFLOWER);
     border-bottom: 1px solid var(--CORNFLOWER);
-    
 }
 
 .portfolio-image {
