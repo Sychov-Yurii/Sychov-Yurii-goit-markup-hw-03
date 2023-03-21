@@ -382,16 +382,15 @@ margin-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     margin-left: calc(-1*(24px));
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
     margin-bottom: 120px;
 }
 
 .portfolio-about > .portfolio-title {
     flex-basis: calc(100%/3-(24px));
     text-align: left;
-    gap: 24px;
-    margin-bottom: 48px;
- 
+
 }
 .portfolio-image {
     border: 1px solid var(--CORNFLOWER);
