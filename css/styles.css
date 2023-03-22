@@ -381,7 +381,6 @@ margin-bottom: 120px;
 .portfolio-about {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc(-1*(24px));
     row-gap: 48px;
     column-gap: 24px;
     margin-bottom: 120px;
